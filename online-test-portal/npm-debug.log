@@ -1,0 +1,918 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData @angular/animations
+20 silly mapToRegistry name @angular/animations
+21 silly mapToRegistry scope (from package name) @angular
+22 verbose mapToRegistry no registry URL found in name for scope @angular
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fanimations
+26 silly fetchNamedPackageData @angular/common
+27 silly mapToRegistry name @angular/common
+28 silly mapToRegistry scope (from package name) @angular
+29 verbose mapToRegistry no registry URL found in name for scope @angular
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcommon
+33 silly fetchNamedPackageData @angular/compiler
+34 silly mapToRegistry name @angular/compiler
+35 silly mapToRegistry scope (from package name) @angular
+36 verbose mapToRegistry no registry URL found in name for scope @angular
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcompiler
+40 silly fetchNamedPackageData @angular/core
+41 silly mapToRegistry name @angular/core
+42 silly mapToRegistry scope (from package name) @angular
+43 verbose mapToRegistry no registry URL found in name for scope @angular
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcore
+47 silly fetchNamedPackageData @angular/forms
+48 silly mapToRegistry name @angular/forms
+49 silly mapToRegistry scope (from package name) @angular
+50 verbose mapToRegistry no registry URL found in name for scope @angular
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fforms
+54 silly fetchNamedPackageData @angular/platform-browser
+55 silly mapToRegistry name @angular/platform-browser
+56 silly mapToRegistry scope (from package name) @angular
+57 verbose mapToRegistry no registry URL found in name for scope @angular
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fplatform-browser
+61 silly fetchNamedPackageData @angular/platform-browser-dynamic
+62 silly mapToRegistry name @angular/platform-browser-dynamic
+63 silly mapToRegistry scope (from package name) @angular
+64 verbose mapToRegistry no registry URL found in name for scope @angular
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry https://registry.npmjs.org/
+67 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+68 silly fetchNamedPackageData @angular/router
+69 silly mapToRegistry name @angular/router
+70 silly mapToRegistry scope (from package name) @angular
+71 verbose mapToRegistry no registry URL found in name for scope @angular
+72 silly mapToRegistry using default registry
+73 silly mapToRegistry registry https://registry.npmjs.org/
+74 silly mapToRegistry uri https://registry.npmjs.org/@angular%2frouter
+75 silly fetchNamedPackageData @ng-bootstrap/ng-bootstrap
+76 silly mapToRegistry name @ng-bootstrap/ng-bootstrap
+77 silly mapToRegistry scope (from package name) @ng-bootstrap
+78 verbose mapToRegistry no registry URL found in name for scope @ng-bootstrap
+79 silly mapToRegistry using default registry
+80 silly mapToRegistry registry https://registry.npmjs.org/
+81 silly mapToRegistry uri https://registry.npmjs.org/@ng-bootstrap%2fng-bootstrap
+82 silly fetchNamedPackageData angular-font-awesome
+83 silly mapToRegistry name angular-font-awesome
+84 silly mapToRegistry using default registry
+85 silly mapToRegistry registry https://registry.npmjs.org/
+86 silly mapToRegistry uri https://registry.npmjs.org/angular-font-awesome
+87 silly fetchNamedPackageData bootstrap
+88 silly mapToRegistry name bootstrap
+89 silly mapToRegistry using default registry
+90 silly mapToRegistry registry https://registry.npmjs.org/
+91 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+92 silly fetchNamedPackageData font-awesome
+93 silly mapToRegistry name font-awesome
+94 silly mapToRegistry using default registry
+95 silly mapToRegistry registry https://registry.npmjs.org/
+96 silly mapToRegistry uri https://registry.npmjs.org/font-awesome
+97 silly fetchNamedPackageData jquery
+98 silly mapToRegistry name jquery
+99 silly mapToRegistry using default registry
+100 silly mapToRegistry registry https://registry.npmjs.org/
+101 silly mapToRegistry uri https://registry.npmjs.org/jquery
+102 silly fetchNamedPackageData mdbootstrap
+103 silly mapToRegistry name mdbootstrap
+104 silly mapToRegistry using default registry
+105 silly mapToRegistry registry https://registry.npmjs.org/
+106 silly mapToRegistry uri https://registry.npmjs.org/mdbootstrap
+107 silly fetchNamedPackageData ngx-webcam
+108 silly mapToRegistry name ngx-webcam
+109 silly mapToRegistry using default registry
+110 silly mapToRegistry registry https://registry.npmjs.org/
+111 silly mapToRegistry uri https://registry.npmjs.org/ngx-webcam
+112 silly fetchNamedPackageData popper.js
+113 silly mapToRegistry name popper.js
+114 silly mapToRegistry using default registry
+115 silly mapToRegistry registry https://registry.npmjs.org/
+116 silly mapToRegistry uri https://registry.npmjs.org/popper.js
+117 silly fetchNamedPackageData rxjs
+118 silly mapToRegistry name rxjs
+119 silly mapToRegistry using default registry
+120 silly mapToRegistry registry https://registry.npmjs.org/
+121 silly mapToRegistry uri https://registry.npmjs.org/rxjs
+122 silly fetchNamedPackageData tslib
+123 silly mapToRegistry name tslib
+124 silly mapToRegistry using default registry
+125 silly mapToRegistry registry https://registry.npmjs.org/
+126 silly mapToRegistry uri https://registry.npmjs.org/tslib
+127 silly fetchNamedPackageData zone.js
+128 silly mapToRegistry name zone.js
+129 silly mapToRegistry using default registry
+130 silly mapToRegistry registry https://registry.npmjs.org/
+131 silly mapToRegistry uri https://registry.npmjs.org/zone.js
+132 verbose request uri https://registry.npmjs.org/@angular%2fanimations
+133 verbose request no auth needed
+134 info attempt registry request try #1 at 1:01:00 PM
+135 verbose request id 025ade6a52737115
+136 verbose etag W/"2492e4e98a838f2e2f1091ca96857b7b"
+137 verbose lastModified Wed, 18 May 2022 19:09:47 GMT
+138 http request GET https://registry.npmjs.org/@angular%2fanimations
+139 verbose request uri https://registry.npmjs.org/@angular%2fcommon
+140 verbose request no auth needed
+141 info attempt registry request try #1 at 1:01:00 PM
+142 verbose etag W/"474baab445d1dddf1ebffc7a86b46a95"
+143 verbose lastModified Wed, 18 May 2022 19:10:00 GMT
+144 http request GET https://registry.npmjs.org/@angular%2fcommon
+145 verbose request uri https://registry.npmjs.org/@angular%2fcompiler
+146 verbose request no auth needed
+147 info attempt registry request try #1 at 1:01:00 PM
+148 verbose etag W/"c8cf98c45938127616e16c627aa6b287"
+149 verbose lastModified Wed, 18 May 2022 19:10:08 GMT
+150 http request GET https://registry.npmjs.org/@angular%2fcompiler
+151 verbose request uri https://registry.npmjs.org/@angular%2fcore
+152 verbose request no auth needed
+153 info attempt registry request try #1 at 1:01:00 PM
+154 verbose etag W/"f005d27a137ae308f6c701c1c86dc0a7"
+155 verbose lastModified Wed, 18 May 2022 19:10:23 GMT
+156 http request GET https://registry.npmjs.org/@angular%2fcore
+157 verbose request uri https://registry.npmjs.org/@angular%2fforms
+158 verbose request no auth needed
+159 info attempt registry request try #1 at 1:01:00 PM
+160 verbose etag W/"b32abd82c184b8e7d688c7121be34601"
+161 verbose lastModified Wed, 18 May 2022 19:10:31 GMT
+162 http request GET https://registry.npmjs.org/@angular%2fforms
+163 verbose request uri https://registry.npmjs.org/@angular%2fplatform-browser
+164 verbose request no auth needed
+165 info attempt registry request try #1 at 1:01:00 PM
+166 verbose etag W/"3d2a1dd67014254e2cd2b5cd260a3e91"
+167 verbose lastModified Wed, 18 May 2022 19:10:52 GMT
+168 http request GET https://registry.npmjs.org/@angular%2fplatform-browser
+169 verbose request uri https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+170 verbose request no auth needed
+171 info attempt registry request try #1 at 1:01:00 PM
+172 verbose etag W/"068ee0a2f297a78af6d59d79392839c2"
+173 verbose lastModified Wed, 18 May 2022 19:10:56 GMT
+174 http request GET https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+175 verbose request uri https://registry.npmjs.org/@angular%2frouter
+176 verbose request no auth needed
+177 info attempt registry request try #1 at 1:01:00 PM
+178 verbose etag W/"46eb58268e77738f1c1ace9f4680a0c9"
+179 verbose lastModified Wed, 18 May 2022 19:11:04 GMT
+180 http request GET https://registry.npmjs.org/@angular%2frouter
+181 verbose request uri https://registry.npmjs.org/@ng-bootstrap%2fng-bootstrap
+182 verbose request no auth needed
+183 info attempt registry request try #1 at 1:01:00 PM
+184 verbose etag W/"0d6bb480892b9a04530d6a3c080aa2be"
+185 verbose lastModified Tue, 17 May 2022 13:30:11 GMT
+186 http request GET https://registry.npmjs.org/@ng-bootstrap%2fng-bootstrap
+187 verbose request uri https://registry.npmjs.org/angular-font-awesome
+188 verbose request no auth needed
+189 info attempt registry request try #1 at 1:01:00 PM
+190 verbose etag W/"71064e7faad5ac08794bc0fad38c97c8"
+191 verbose lastModified Mon, 16 May 2022 02:35:25 GMT
+192 http request GET https://registry.npmjs.org/angular-font-awesome
+193 verbose request uri https://registry.npmjs.org/bootstrap
+194 verbose request no auth needed
+195 info attempt registry request try #1 at 1:01:00 PM
+196 verbose etag W/"032c6ff025f29a3bb2e3baa118bc068f"
+197 verbose lastModified Mon, 16 May 2022 05:35:27 GMT
+198 http request GET https://registry.npmjs.org/bootstrap
+199 verbose request uri https://registry.npmjs.org/font-awesome
+200 verbose request no auth needed
+201 info attempt registry request try #1 at 1:01:00 PM
+202 verbose etag W/"7936ae5388e38dcee7c4a15227c63cc3"
+203 verbose lastModified Thu, 18 Nov 2021 04:53:30 GMT
+204 http request GET https://registry.npmjs.org/font-awesome
+205 verbose request uri https://registry.npmjs.org/jquery
+206 verbose request no auth needed
+207 info attempt registry request try #1 at 1:01:00 PM
+208 verbose etag W/"a7747137aa6697c2adcef7a16bca3d98"
+209 verbose lastModified Fri, 06 May 2022 17:00:40 GMT
+210 http request GET https://registry.npmjs.org/jquery
+211 verbose request uri https://registry.npmjs.org/mdbootstrap
+212 verbose request no auth needed
+213 info attempt registry request try #1 at 1:01:00 PM
+214 verbose etag W/"707c024405d65c4df50804eaa61cc9e0"
+215 verbose lastModified Tue, 10 May 2022 21:16:13 GMT
+216 http request GET https://registry.npmjs.org/mdbootstrap
+217 verbose request uri https://registry.npmjs.org/ngx-webcam
+218 verbose request no auth needed
+219 info attempt registry request try #1 at 1:01:00 PM
+220 verbose etag W/"30f2a6b6615d7fe2baf12348c178dd3d"
+221 verbose lastModified Tue, 10 May 2022 20:57:56 GMT
+222 http request GET https://registry.npmjs.org/ngx-webcam
+223 verbose request uri https://registry.npmjs.org/popper.js
+224 verbose request no auth needed
+225 info attempt registry request try #1 at 1:01:00 PM
+226 verbose etag W/"e6227a50734dcdb48061f79fe3d1690e"
+227 verbose lastModified Fri, 13 May 2022 05:22:18 GMT
+228 http request GET https://registry.npmjs.org/popper.js
+229 verbose request uri https://registry.npmjs.org/rxjs
+230 verbose request no auth needed
+231 info attempt registry request try #1 at 1:01:00 PM
+232 verbose etag W/"bd73fcba7592fde474d3ce9bd39bfef8"
+233 verbose lastModified Mon, 16 May 2022 08:51:15 GMT
+234 http request GET https://registry.npmjs.org/rxjs
+235 verbose request uri https://registry.npmjs.org/tslib
+236 verbose request no auth needed
+237 info attempt registry request try #1 at 1:01:00 PM
+238 verbose etag W/"47f01d04a71430b7b14c5c1ce88bc78f"
+239 verbose lastModified Sun, 22 May 2022 08:35:06 GMT
+240 http request GET https://registry.npmjs.org/tslib
+241 verbose request uri https://registry.npmjs.org/zone.js
+242 verbose request no auth needed
+243 info attempt registry request try #1 at 1:01:00 PM
+244 verbose etag W/"bfd2723ef93aa62ef5214918ac545b5d"
+245 verbose lastModified Thu, 14 Apr 2022 20:15:45 GMT
+246 http request GET https://registry.npmjs.org/zone.js
+247 http 304 https://registry.npmjs.org/zone.js
+248 verbose headers { date: 'Tue, 24 May 2022 13:01:00 GMT',
+248 verbose headers   connection: 'keep-alive',
+248 verbose headers   'cf-ray': '710637ad6a74680e-SEA',
+248 verbose headers   age: '79',
+248 verbose headers   'cache-control': 'public, max-age=300',
+248 verbose headers   etag: '"bfd2723ef93aa62ef5214918ac545b5d"',
+248 verbose headers   'last-modified': 'Thu, 14 Apr 2022 20:15:45 GMT',
+248 verbose headers   vary: 'Accept-Encoding',
+248 verbose headers   'cf-cache-status': 'HIT',
+248 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+248 verbose headers   'x-amz-replication-status': 'PENDING',
+248 verbose headers   server: 'cloudflare' }
+249 silly get cb [ 304,
+249 silly get   { date: 'Tue, 24 May 2022 13:01:00 GMT',
+249 silly get     connection: 'keep-alive',
+249 silly get     'cf-ray': '710637ad6a74680e-SEA',
+249 silly get     age: '79',
+249 silly get     'cache-control': 'public, max-age=300',
+249 silly get     etag: '"bfd2723ef93aa62ef5214918ac545b5d"',
+249 silly get     'last-modified': 'Thu, 14 Apr 2022 20:15:45 GMT',
+249 silly get     vary: 'Accept-Encoding',
+249 silly get     'cf-cache-status': 'HIT',
+249 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+249 silly get     'x-amz-replication-status': 'PENDING',
+249 silly get     server: 'cloudflare' } ]
+250 verbose etag https://registry.npmjs.org/zone.js from cache
+251 verbose get saving zone.js to /home/labsuser/.npm/registry.npmjs.org/zone.js/.cache.json
+252 http 304 https://registry.npmjs.org/bootstrap
+253 verbose headers { date: 'Tue, 24 May 2022 13:01:00 GMT',
+253 verbose headers   connection: 'keep-alive',
+253 verbose headers   'cf-ray': '710637ad6c1730b9-SEA',
+253 verbose headers   age: '137',
+253 verbose headers   'cache-control': 'public, max-age=300',
+253 verbose headers   etag: '"032c6ff025f29a3bb2e3baa118bc068f"',
+253 verbose headers   'last-modified': 'Mon, 16 May 2022 05:35:27 GMT',
+253 verbose headers   vary: 'Accept-Encoding',
+253 verbose headers   'cf-cache-status': 'HIT',
+253 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+253 verbose headers   'x-amz-replication-status': 'PENDING',
+253 verbose headers   server: 'cloudflare' }
+254 silly get cb [ 304,
+254 silly get   { date: 'Tue, 24 May 2022 13:01:00 GMT',
+254 silly get     connection: 'keep-alive',
+254 silly get     'cf-ray': '710637ad6c1730b9-SEA',
+254 silly get     age: '137',
+254 silly get     'cache-control': 'public, max-age=300',
+254 silly get     etag: '"032c6ff025f29a3bb2e3baa118bc068f"',
+254 silly get     'last-modified': 'Mon, 16 May 2022 05:35:27 GMT',
+254 silly get     vary: 'Accept-Encoding',
+254 silly get     'cf-cache-status': 'HIT',
+254 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+254 silly get     'x-amz-replication-status': 'PENDING',
+254 silly get     server: 'cloudflare' } ]
+255 verbose etag https://registry.npmjs.org/bootstrap from cache
+256 verbose get saving bootstrap to /home/labsuser/.npm/registry.npmjs.org/bootstrap/.cache.json
+257 http 304 https://registry.npmjs.org/font-awesome
+258 verbose headers { date: 'Tue, 24 May 2022 13:01:00 GMT',
+258 verbose headers   connection: 'keep-alive',
+258 verbose headers   'cf-ray': '710637ad6df1e472-SEA',
+258 verbose headers   age: '187',
+258 verbose headers   'cache-control': 'public, max-age=300',
+258 verbose headers   etag: '"7936ae5388e38dcee7c4a15227c63cc3"',
+258 verbose headers   'last-modified': 'Thu, 18 Nov 2021 04:53:30 GMT',
+258 verbose headers   vary: 'Accept-Encoding',
+258 verbose headers   'cf-cache-status': 'HIT',
+258 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+258 verbose headers   'x-amz-replication-status': 'COMPLETED',
+258 verbose headers   server: 'cloudflare' }
+259 silly get cb [ 304,
+259 silly get   { date: 'Tue, 24 May 2022 13:01:00 GMT',
+259 silly get     connection: 'keep-alive',
+259 silly get     'cf-ray': '710637ad6df1e472-SEA',
+259 silly get     age: '187',
+259 silly get     'cache-control': 'public, max-age=300',
+259 silly get     etag: '"7936ae5388e38dcee7c4a15227c63cc3"',
+259 silly get     'last-modified': 'Thu, 18 Nov 2021 04:53:30 GMT',
+259 silly get     vary: 'Accept-Encoding',
+259 silly get     'cf-cache-status': 'HIT',
+259 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+259 silly get     'x-amz-replication-status': 'COMPLETED',
+259 silly get     server: 'cloudflare' } ]
+260 verbose etag https://registry.npmjs.org/font-awesome from cache
+261 verbose get saving font-awesome to /home/labsuser/.npm/registry.npmjs.org/font-awesome/.cache.json
+262 http 304 https://registry.npmjs.org/angular-font-awesome
+263 verbose headers { date: 'Tue, 24 May 2022 13:01:00 GMT',
+263 verbose headers   connection: 'keep-alive',
+263 verbose headers   'cf-ray': '710637ad694c3a26-SEA',
+263 verbose headers   age: '177',
+263 verbose headers   'cache-control': 'public, max-age=300',
+263 verbose headers   etag: '"71064e7faad5ac08794bc0fad38c97c8"',
+263 verbose headers   'last-modified': 'Mon, 16 May 2022 02:35:25 GMT',
+263 verbose headers   vary: 'Accept-Encoding',
+263 verbose headers   'cf-cache-status': 'HIT',
+263 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+263 verbose headers   'x-amz-replication-status': 'COMPLETED',
+263 verbose headers   server: 'cloudflare' }
+264 silly get cb [ 304,
+264 silly get   { date: 'Tue, 24 May 2022 13:01:00 GMT',
+264 silly get     connection: 'keep-alive',
+264 silly get     'cf-ray': '710637ad694c3a26-SEA',
+264 silly get     age: '177',
+264 silly get     'cache-control': 'public, max-age=300',
+264 silly get     etag: '"71064e7faad5ac08794bc0fad38c97c8"',
+264 silly get     'last-modified': 'Mon, 16 May 2022 02:35:25 GMT',
+264 silly get     vary: 'Accept-Encoding',
+264 silly get     'cf-cache-status': 'HIT',
+264 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+264 silly get     'x-amz-replication-status': 'COMPLETED',
+264 silly get     server: 'cloudflare' } ]
+265 verbose etag https://registry.npmjs.org/angular-font-awesome from cache
+266 verbose get saving angular-font-awesome to /home/labsuser/.npm/registry.npmjs.org/angular-font-awesome/.cache.json
+267 http 304 https://registry.npmjs.org/ngx-webcam
+268 verbose headers { date: 'Tue, 24 May 2022 13:01:00 GMT',
+268 verbose headers   connection: 'keep-alive',
+268 verbose headers   'cf-ray': '710637ad6ce913e0-SEA',
+268 verbose headers   age: '60',
+268 verbose headers   'cache-control': 'public, max-age=300',
+268 verbose headers   etag: '"30f2a6b6615d7fe2baf12348c178dd3d"',
+268 verbose headers   'last-modified': 'Tue, 10 May 2022 20:57:56 GMT',
+268 verbose headers   vary: 'Accept-Encoding',
+268 verbose headers   'cf-cache-status': 'HIT',
+268 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+268 verbose headers   'x-amz-replication-status': 'COMPLETED',
+268 verbose headers   server: 'cloudflare' }
+269 silly get cb [ 304,
+269 silly get   { date: 'Tue, 24 May 2022 13:01:00 GMT',
+269 silly get     connection: 'keep-alive',
+269 silly get     'cf-ray': '710637ad6ce913e0-SEA',
+269 silly get     age: '60',
+269 silly get     'cache-control': 'public, max-age=300',
+269 silly get     etag: '"30f2a6b6615d7fe2baf12348c178dd3d"',
+269 silly get     'last-modified': 'Tue, 10 May 2022 20:57:56 GMT',
+269 silly get     vary: 'Accept-Encoding',
+269 silly get     'cf-cache-status': 'HIT',
+269 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+269 silly get     'x-amz-replication-status': 'COMPLETED',
+269 silly get     server: 'cloudflare' } ]
+270 verbose etag https://registry.npmjs.org/ngx-webcam from cache
+271 verbose get saving ngx-webcam to /home/labsuser/.npm/registry.npmjs.org/ngx-webcam/.cache.json
+272 http 304 https://registry.npmjs.org/popper.js
+273 verbose headers { date: 'Tue, 24 May 2022 13:01:00 GMT',
+273 verbose headers   connection: 'keep-alive',
+273 verbose headers   'cf-ray': '710637ad79bb1472-SEA',
+273 verbose headers   age: '283',
+273 verbose headers   'cache-control': 'public, max-age=300',
+273 verbose headers   etag: '"e6227a50734dcdb48061f79fe3d1690e"',
+273 verbose headers   'last-modified': 'Fri, 13 May 2022 05:22:18 GMT',
+273 verbose headers   vary: 'Accept-Encoding',
+273 verbose headers   'cf-cache-status': 'HIT',
+273 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+273 verbose headers   'x-amz-replication-status': 'PENDING',
+273 verbose headers   server: 'cloudflare' }
+274 silly get cb [ 304,
+274 silly get   { date: 'Tue, 24 May 2022 13:01:00 GMT',
+274 silly get     connection: 'keep-alive',
+274 silly get     'cf-ray': '710637ad79bb1472-SEA',
+274 silly get     age: '283',
+274 silly get     'cache-control': 'public, max-age=300',
+274 silly get     etag: '"e6227a50734dcdb48061f79fe3d1690e"',
+274 silly get     'last-modified': 'Fri, 13 May 2022 05:22:18 GMT',
+274 silly get     vary: 'Accept-Encoding',
+274 silly get     'cf-cache-status': 'HIT',
+274 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+274 silly get     'x-amz-replication-status': 'PENDING',
+274 silly get     server: 'cloudflare' } ]
+275 verbose etag https://registry.npmjs.org/popper.js from cache
+276 verbose get saving popper.js to /home/labsuser/.npm/registry.npmjs.org/popper.js/.cache.json
+277 http 304 https://registry.npmjs.org/@angular%2fcore
+278 verbose headers { date: 'Tue, 24 May 2022 13:01:00 GMT',
+278 verbose headers   connection: 'keep-alive',
+278 verbose headers   'cf-ray': '710637ad68c28f4d-SEA',
+278 verbose headers   age: '251',
+278 verbose headers   'cache-control': 'public, max-age=300',
+278 verbose headers   etag: '"f005d27a137ae308f6c701c1c86dc0a7"',
+278 verbose headers   'last-modified': 'Wed, 18 May 2022 19:10:23 GMT',
+278 verbose headers   vary: 'Accept-Encoding',
+278 verbose headers   'cf-cache-status': 'HIT',
+278 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+278 verbose headers   'x-amz-replication-status': 'COMPLETED',
+278 verbose headers   server: 'cloudflare' }
+279 silly get cb [ 304,
+279 silly get   { date: 'Tue, 24 May 2022 13:01:00 GMT',
+279 silly get     connection: 'keep-alive',
+279 silly get     'cf-ray': '710637ad68c28f4d-SEA',
+279 silly get     age: '251',
+279 silly get     'cache-control': 'public, max-age=300',
+279 silly get     etag: '"f005d27a137ae308f6c701c1c86dc0a7"',
+279 silly get     'last-modified': 'Wed, 18 May 2022 19:10:23 GMT',
+279 silly get     vary: 'Accept-Encoding',
+279 silly get     'cf-cache-status': 'HIT',
+279 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+279 silly get     'x-amz-replication-status': 'COMPLETED',
+279 silly get     server: 'cloudflare' } ]
+280 verbose etag https://registry.npmjs.org/@angular%2fcore from cache
+281 verbose get saving @angular/core to /home/labsuser/.npm/registry.npmjs.org/_40angular_252fcore/.cache.json
+282 http 304 https://registry.npmjs.org/@angular%2fplatform-browser
+283 verbose headers { date: 'Tue, 24 May 2022 13:01:00 GMT',
+283 verbose headers   connection: 'keep-alive',
+283 verbose headers   'cf-ray': '710637ad6a6e680e-SEA',
+283 verbose headers   age: '249',
+283 verbose headers   'cache-control': 'public, max-age=300',
+283 verbose headers   etag: '"3d2a1dd67014254e2cd2b5cd260a3e91"',
+283 verbose headers   'last-modified': 'Wed, 18 May 2022 19:10:52 GMT',
+283 verbose headers   vary: 'Accept-Encoding',
+283 verbose headers   'cf-cache-status': 'HIT',
+283 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+283 verbose headers   'x-amz-replication-status': 'PENDING',
+283 verbose headers   server: 'cloudflare' }
+284 silly get cb [ 304,
+284 silly get   { date: 'Tue, 24 May 2022 13:01:00 GMT',
+284 silly get     connection: 'keep-alive',
+284 silly get     'cf-ray': '710637ad6a6e680e-SEA',
+284 silly get     age: '249',
+284 silly get     'cache-control': 'public, max-age=300',
+284 silly get     etag: '"3d2a1dd67014254e2cd2b5cd260a3e91"',
+284 silly get     'last-modified': 'Wed, 18 May 2022 19:10:52 GMT',
+284 silly get     vary: 'Accept-Encoding',
+284 silly get     'cf-cache-status': 'HIT',
+284 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+284 silly get     'x-amz-replication-status': 'PENDING',
+284 silly get     server: 'cloudflare' } ]
+285 verbose etag https://registry.npmjs.org/@angular%2fplatform-browser from cache
+286 verbose get saving @angular/platform-browser to /home/labsuser/.npm/registry.npmjs.org/_40angular_252fplatform-browser/.cache.json
+287 http 304 https://registry.npmjs.org/@angular%2fcommon
+288 verbose headers { date: 'Tue, 24 May 2022 13:01:00 GMT',
+288 verbose headers   connection: 'keep-alive',
+288 verbose headers   'cf-ray': '710637ad6b7a604d-SEA',
+288 verbose headers   age: '215',
+288 verbose headers   'cache-control': 'public, max-age=300',
+288 verbose headers   etag: '"474baab445d1dddf1ebffc7a86b46a95"',
+288 verbose headers   'last-modified': 'Wed, 18 May 2022 19:10:00 GMT',
+288 verbose headers   vary: 'Accept-Encoding',
+288 verbose headers   'cf-cache-status': 'HIT',
+288 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+288 verbose headers   'x-amz-replication-status': 'COMPLETED',
+288 verbose headers   server: 'cloudflare' }
+289 silly get cb [ 304,
+289 silly get   { date: 'Tue, 24 May 2022 13:01:00 GMT',
+289 silly get     connection: 'keep-alive',
+289 silly get     'cf-ray': '710637ad6b7a604d-SEA',
+289 silly get     age: '215',
+289 silly get     'cache-control': 'public, max-age=300',
+289 silly get     etag: '"474baab445d1dddf1ebffc7a86b46a95"',
+289 silly get     'last-modified': 'Wed, 18 May 2022 19:10:00 GMT',
+289 silly get     vary: 'Accept-Encoding',
+289 silly get     'cf-cache-status': 'HIT',
+289 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+289 silly get     'x-amz-replication-status': 'COMPLETED',
+289 silly get     server: 'cloudflare' } ]
+290 verbose etag https://registry.npmjs.org/@angular%2fcommon from cache
+291 verbose get saving @angular/common to /home/labsuser/.npm/registry.npmjs.org/_40angular_252fcommon/.cache.json
+292 http 304 https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+293 verbose headers { date: 'Tue, 24 May 2022 13:01:00 GMT',
+293 verbose headers   connection: 'keep-alive',
+293 verbose headers   'cf-ray': '710637ad69a0091b-SEA',
+293 verbose headers   age: '12',
+293 verbose headers   'cache-control': 'public, max-age=300',
+293 verbose headers   etag: '"068ee0a2f297a78af6d59d79392839c2"',
+293 verbose headers   'last-modified': 'Wed, 18 May 2022 19:10:56 GMT',
+293 verbose headers   vary: 'Accept-Encoding',
+293 verbose headers   'cf-cache-status': 'HIT',
+293 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+293 verbose headers   'x-amz-replication-status': 'PENDING',
+293 verbose headers   server: 'cloudflare' }
+294 silly get cb [ 304,
+294 silly get   { date: 'Tue, 24 May 2022 13:01:00 GMT',
+294 silly get     connection: 'keep-alive',
+294 silly get     'cf-ray': '710637ad69a0091b-SEA',
+294 silly get     age: '12',
+294 silly get     'cache-control': 'public, max-age=300',
+294 silly get     etag: '"068ee0a2f297a78af6d59d79392839c2"',
+294 silly get     'last-modified': 'Wed, 18 May 2022 19:10:56 GMT',
+294 silly get     vary: 'Accept-Encoding',
+294 silly get     'cf-cache-status': 'HIT',
+294 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+294 silly get     'x-amz-replication-status': 'PENDING',
+294 silly get     server: 'cloudflare' } ]
+295 verbose etag https://registry.npmjs.org/@angular%2fplatform-browser-dynamic from cache
+296 verbose get saving @angular/platform-browser-dynamic to /home/labsuser/.npm/registry.npmjs.org/_40angular_252fplatform-browser-dynamic/.cache.json
+297 http 304 https://registry.npmjs.org/@angular%2frouter
+298 verbose headers { date: 'Tue, 24 May 2022 13:01:00 GMT',
+298 verbose headers   connection: 'keep-alive',
+298 verbose headers   'cf-ray': '710637ad6b56683e-SEA',
+298 verbose headers   age: '241',
+298 verbose headers   'cache-control': 'public, max-age=300',
+298 verbose headers   etag: '"46eb58268e77738f1c1ace9f4680a0c9"',
+298 verbose headers   'last-modified': 'Wed, 18 May 2022 19:11:04 GMT',
+298 verbose headers   vary: 'Accept-Encoding',
+298 verbose headers   'cf-cache-status': 'HIT',
+298 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+298 verbose headers   'x-amz-replication-status': 'PENDING',
+298 verbose headers   server: 'cloudflare' }
+299 silly get cb [ 304,
+299 silly get   { date: 'Tue, 24 May 2022 13:01:00 GMT',
+299 silly get     connection: 'keep-alive',
+299 silly get     'cf-ray': '710637ad6b56683e-SEA',
+299 silly get     age: '241',
+299 silly get     'cache-control': 'public, max-age=300',
+299 silly get     etag: '"46eb58268e77738f1c1ace9f4680a0c9"',
+299 silly get     'last-modified': 'Wed, 18 May 2022 19:11:04 GMT',
+299 silly get     vary: 'Accept-Encoding',
+299 silly get     'cf-cache-status': 'HIT',
+299 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+299 silly get     'x-amz-replication-status': 'PENDING',
+299 silly get     server: 'cloudflare' } ]
+300 verbose etag https://registry.npmjs.org/@angular%2frouter from cache
+301 verbose get saving @angular/router to /home/labsuser/.npm/registry.npmjs.org/_40angular_252frouter/.cache.json
+302 http 304 https://registry.npmjs.org/@ng-bootstrap%2fng-bootstrap
+303 verbose headers { date: 'Tue, 24 May 2022 13:01:00 GMT',
+303 verbose headers   connection: 'keep-alive',
+303 verbose headers   'cf-ray': '710637ad6b04029d-SEA',
+303 verbose headers   age: '188',
+303 verbose headers   'cache-control': 'public, max-age=300',
+303 verbose headers   etag: '"0d6bb480892b9a04530d6a3c080aa2be"',
+303 verbose headers   'last-modified': 'Tue, 17 May 2022 13:30:11 GMT',
+303 verbose headers   vary: 'Accept-Encoding',
+303 verbose headers   'cf-cache-status': 'HIT',
+303 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+303 verbose headers   'x-amz-replication-status': 'PENDING',
+303 verbose headers   server: 'cloudflare' }
+304 silly get cb [ 304,
+304 silly get   { date: 'Tue, 24 May 2022 13:01:00 GMT',
+304 silly get     connection: 'keep-alive',
+304 silly get     'cf-ray': '710637ad6b04029d-SEA',
+304 silly get     age: '188',
+304 silly get     'cache-control': 'public, max-age=300',
+304 silly get     etag: '"0d6bb480892b9a04530d6a3c080aa2be"',
+304 silly get     'last-modified': 'Tue, 17 May 2022 13:30:11 GMT',
+304 silly get     vary: 'Accept-Encoding',
+304 silly get     'cf-cache-status': 'HIT',
+304 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+304 silly get     'x-amz-replication-status': 'PENDING',
+304 silly get     server: 'cloudflare' } ]
+305 verbose etag https://registry.npmjs.org/@ng-bootstrap%2fng-bootstrap from cache
+306 verbose get saving @ng-bootstrap/ng-bootstrap to /home/labsuser/.npm/registry.npmjs.org/_40ng-bootstrap_252fng-bootstrap/.cache.json
+307 http 304 https://registry.npmjs.org/@angular%2fanimations
+308 verbose headers { date: 'Tue, 24 May 2022 13:01:00 GMT',
+308 verbose headers   connection: 'keep-alive',
+308 verbose headers   'cf-ray': '710637ad7d8e087d-SEA',
+308 verbose headers   age: '191',
+308 verbose headers   'cache-control': 'public, max-age=300',
+308 verbose headers   etag: '"2492e4e98a838f2e2f1091ca96857b7b"',
+308 verbose headers   'last-modified': 'Wed, 18 May 2022 19:09:47 GMT',
+308 verbose headers   vary: 'Accept-Encoding',
+308 verbose headers   'cf-cache-status': 'HIT',
+308 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+308 verbose headers   'x-amz-replication-status': 'PENDING',
+308 verbose headers   server: 'cloudflare' }
+309 silly get cb [ 304,
+309 silly get   { date: 'Tue, 24 May 2022 13:01:00 GMT',
+309 silly get     connection: 'keep-alive',
+309 silly get     'cf-ray': '710637ad7d8e087d-SEA',
+309 silly get     age: '191',
+309 silly get     'cache-control': 'public, max-age=300',
+309 silly get     etag: '"2492e4e98a838f2e2f1091ca96857b7b"',
+309 silly get     'last-modified': 'Wed, 18 May 2022 19:09:47 GMT',
+309 silly get     vary: 'Accept-Encoding',
+309 silly get     'cf-cache-status': 'HIT',
+309 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+309 silly get     'x-amz-replication-status': 'PENDING',
+309 silly get     server: 'cloudflare' } ]
+310 verbose etag https://registry.npmjs.org/@angular%2fanimations from cache
+311 verbose get saving @angular/animations to /home/labsuser/.npm/registry.npmjs.org/_40angular_252fanimations/.cache.json
+312 http 304 https://registry.npmjs.org/jquery
+313 verbose headers { date: 'Tue, 24 May 2022 13:01:00 GMT',
+313 verbose headers   connection: 'keep-alive',
+313 verbose headers   'cf-ray': '710637ad6a5ce35a-SEA',
+313 verbose headers   age: '80',
+313 verbose headers   'cache-control': 'public, max-age=300',
+313 verbose headers   etag: '"a7747137aa6697c2adcef7a16bca3d98"',
+313 verbose headers   'last-modified': 'Fri, 06 May 2022 17:00:40 GMT',
+313 verbose headers   vary: 'Accept-Encoding',
+313 verbose headers   'cf-cache-status': 'HIT',
+313 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+313 verbose headers   'x-amz-replication-status': 'PENDING',
+313 verbose headers   server: 'cloudflare' }
+314 silly get cb [ 304,
+314 silly get   { date: 'Tue, 24 May 2022 13:01:00 GMT',
+314 silly get     connection: 'keep-alive',
+314 silly get     'cf-ray': '710637ad6a5ce35a-SEA',
+314 silly get     age: '80',
+314 silly get     'cache-control': 'public, max-age=300',
+314 silly get     etag: '"a7747137aa6697c2adcef7a16bca3d98"',
+314 silly get     'last-modified': 'Fri, 06 May 2022 17:00:40 GMT',
+314 silly get     vary: 'Accept-Encoding',
+314 silly get     'cf-cache-status': 'HIT',
+314 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+314 silly get     'x-amz-replication-status': 'PENDING',
+314 silly get     server: 'cloudflare' } ]
+315 verbose etag https://registry.npmjs.org/jquery from cache
+316 verbose get saving jquery to /home/labsuser/.npm/registry.npmjs.org/jquery/.cache.json
+317 http 304 https://registry.npmjs.org/@angular%2fcompiler
+318 verbose headers { date: 'Tue, 24 May 2022 13:01:00 GMT',
+318 verbose headers   connection: 'keep-alive',
+318 verbose headers   'cf-ray': '710637ad6b6730ad-SEA',
+318 verbose headers   age: '251',
+318 verbose headers   'cache-control': 'public, max-age=300',
+318 verbose headers   etag: '"c8cf98c45938127616e16c627aa6b287"',
+318 verbose headers   'last-modified': 'Wed, 18 May 2022 19:10:08 GMT',
+318 verbose headers   vary: 'Accept-Encoding',
+318 verbose headers   'cf-cache-status': 'HIT',
+318 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+318 verbose headers   'x-amz-replication-status': 'COMPLETED',
+318 verbose headers   server: 'cloudflare' }
+319 silly get cb [ 304,
+319 silly get   { date: 'Tue, 24 May 2022 13:01:00 GMT',
+319 silly get     connection: 'keep-alive',
+319 silly get     'cf-ray': '710637ad6b6730ad-SEA',
+319 silly get     age: '251',
+319 silly get     'cache-control': 'public, max-age=300',
+319 silly get     etag: '"c8cf98c45938127616e16c627aa6b287"',
+319 silly get     'last-modified': 'Wed, 18 May 2022 19:10:08 GMT',
+319 silly get     vary: 'Accept-Encoding',
+319 silly get     'cf-cache-status': 'HIT',
+319 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+319 silly get     'x-amz-replication-status': 'COMPLETED',
+319 silly get     server: 'cloudflare' } ]
+320 verbose etag https://registry.npmjs.org/@angular%2fcompiler from cache
+321 verbose get saving @angular/compiler to /home/labsuser/.npm/registry.npmjs.org/_40angular_252fcompiler/.cache.json
+322 http 304 https://registry.npmjs.org/mdbootstrap
+323 verbose headers { date: 'Tue, 24 May 2022 13:01:00 GMT',
+323 verbose headers   connection: 'keep-alive',
+323 verbose headers   'cf-ray': '710637ad6817df7f-SEA',
+323 verbose headers   age: '24',
+323 verbose headers   'cache-control': 'public, max-age=300',
+323 verbose headers   etag: '"707c024405d65c4df50804eaa61cc9e0"',
+323 verbose headers   'last-modified': 'Tue, 10 May 2022 21:16:13 GMT',
+323 verbose headers   vary: 'Accept-Encoding',
+323 verbose headers   'cf-cache-status': 'HIT',
+323 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+323 verbose headers   'x-amz-replication-status': 'COMPLETED',
+323 verbose headers   server: 'cloudflare' }
+324 silly get cb [ 304,
+324 silly get   { date: 'Tue, 24 May 2022 13:01:00 GMT',
+324 silly get     connection: 'keep-alive',
+324 silly get     'cf-ray': '710637ad6817df7f-SEA',
+324 silly get     age: '24',
+324 silly get     'cache-control': 'public, max-age=300',
+324 silly get     etag: '"707c024405d65c4df50804eaa61cc9e0"',
+324 silly get     'last-modified': 'Tue, 10 May 2022 21:16:13 GMT',
+324 silly get     vary: 'Accept-Encoding',
+324 silly get     'cf-cache-status': 'HIT',
+324 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+324 silly get     'x-amz-replication-status': 'COMPLETED',
+324 silly get     server: 'cloudflare' } ]
+325 verbose etag https://registry.npmjs.org/mdbootstrap from cache
+326 verbose get saving mdbootstrap to /home/labsuser/.npm/registry.npmjs.org/mdbootstrap/.cache.json
+327 http 304 https://registry.npmjs.org/@angular%2fforms
+328 verbose headers { date: 'Tue, 24 May 2022 13:01:00 GMT',
+328 verbose headers   connection: 'keep-alive',
+328 verbose headers   'cf-ray': '710637ad5ea408b1-SEA',
+328 verbose headers   age: '191',
+328 verbose headers   'cache-control': 'public, max-age=300',
+328 verbose headers   etag: '"b32abd82c184b8e7d688c7121be34601"',
+328 verbose headers   'last-modified': 'Wed, 18 May 2022 19:10:31 GMT',
+328 verbose headers   vary: 'Accept-Encoding',
+328 verbose headers   'cf-cache-status': 'HIT',
+328 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+328 verbose headers   'x-amz-replication-status': 'COMPLETED',
+328 verbose headers   server: 'cloudflare' }
+329 silly get cb [ 304,
+329 silly get   { date: 'Tue, 24 May 2022 13:01:00 GMT',
+329 silly get     connection: 'keep-alive',
+329 silly get     'cf-ray': '710637ad5ea408b1-SEA',
+329 silly get     age: '191',
+329 silly get     'cache-control': 'public, max-age=300',
+329 silly get     etag: '"b32abd82c184b8e7d688c7121be34601"',
+329 silly get     'last-modified': 'Wed, 18 May 2022 19:10:31 GMT',
+329 silly get     vary: 'Accept-Encoding',
+329 silly get     'cf-cache-status': 'HIT',
+329 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+329 silly get     'x-amz-replication-status': 'COMPLETED',
+329 silly get     server: 'cloudflare' } ]
+330 verbose etag https://registry.npmjs.org/@angular%2fforms from cache
+331 verbose get saving @angular/forms to /home/labsuser/.npm/registry.npmjs.org/_40angular_252fforms/.cache.json
+332 http 304 https://registry.npmjs.org/tslib
+333 verbose headers { date: 'Tue, 24 May 2022 13:01:00 GMT',
+333 verbose headers   connection: 'keep-alive',
+333 verbose headers   'cf-ray': '710637ad6d838f70-SEA',
+333 verbose headers   'cache-control': 'public, max-age=300',
+333 verbose headers   etag: '"47f01d04a71430b7b14c5c1ce88bc78f"',
+333 verbose headers   'last-modified': 'Sun, 22 May 2022 08:35:06 GMT',
+333 verbose headers   vary: 'Accept-Encoding',
+333 verbose headers   'cf-cache-status': 'REVALIDATED',
+333 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+333 verbose headers   'x-amz-replication-status': 'PENDING',
+333 verbose headers   server: 'cloudflare' }
+334 silly get cb [ 304,
+334 silly get   { date: 'Tue, 24 May 2022 13:01:00 GMT',
+334 silly get     connection: 'keep-alive',
+334 silly get     'cf-ray': '710637ad6d838f70-SEA',
+334 silly get     'cache-control': 'public, max-age=300',
+334 silly get     etag: '"47f01d04a71430b7b14c5c1ce88bc78f"',
+334 silly get     'last-modified': 'Sun, 22 May 2022 08:35:06 GMT',
+334 silly get     vary: 'Accept-Encoding',
+334 silly get     'cf-cache-status': 'REVALIDATED',
+334 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+334 silly get     'x-amz-replication-status': 'PENDING',
+334 silly get     server: 'cloudflare' } ]
+335 verbose etag https://registry.npmjs.org/tslib from cache
+336 verbose get saving tslib to /home/labsuser/.npm/registry.npmjs.org/tslib/.cache.json
+337 http 304 https://registry.npmjs.org/rxjs
+338 verbose headers { date: 'Tue, 24 May 2022 13:01:00 GMT',
+338 verbose headers   connection: 'keep-alive',
+338 verbose headers   'cf-ray': '710637ad7820df7f-SEA',
+338 verbose headers   age: '40',
+338 verbose headers   'cache-control': 'public, max-age=300',
+338 verbose headers   etag: '"bd73fcba7592fde474d3ce9bd39bfef8"',
+338 verbose headers   'last-modified': 'Mon, 16 May 2022 08:51:15 GMT',
+338 verbose headers   vary: 'Accept-Encoding',
+338 verbose headers   'cf-cache-status': 'HIT',
+338 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+338 verbose headers   'x-amz-replication-status': 'PENDING',
+338 verbose headers   server: 'cloudflare' }
+339 silly get cb [ 304,
+339 silly get   { date: 'Tue, 24 May 2022 13:01:00 GMT',
+339 silly get     connection: 'keep-alive',
+339 silly get     'cf-ray': '710637ad7820df7f-SEA',
+339 silly get     age: '40',
+339 silly get     'cache-control': 'public, max-age=300',
+339 silly get     etag: '"bd73fcba7592fde474d3ce9bd39bfef8"',
+339 silly get     'last-modified': 'Mon, 16 May 2022 08:51:15 GMT',
+339 silly get     vary: 'Accept-Encoding',
+339 silly get     'cf-cache-status': 'HIT',
+339 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+339 silly get     'x-amz-replication-status': 'PENDING',
+339 silly get     server: 'cloudflare' } ]
+340 verbose etag https://registry.npmjs.org/rxjs from cache
+341 verbose get saving rxjs to /home/labsuser/.npm/registry.npmjs.org/rxjs/.cache.json
+342 silly resolveWithNewModule zone.js@0.11.5 checking installable status
+343 silly cache add args [ 'zone.js@~0.11.4', null ]
+344 verbose cache add spec zone.js@~0.11.4
+345 silly cache add parsed spec Result {
+345 silly cache add   raw: 'zone.js@~0.11.4',
+345 silly cache add   scope: null,
+345 silly cache add   name: 'zone.js',
+345 silly cache add   rawSpec: '~0.11.4',
+345 silly cache add   spec: '>=0.11.4 <0.12.0',
+345 silly cache add   type: 'range' }
+346 silly addNamed zone.js@>=0.11.4 <0.12.0
+347 verbose addNamed ">=0.11.4 <0.12.0" is a valid semver range for zone.js
+348 silly addNameRange { name: 'zone.js', range: '>=0.11.4 <0.12.0', hasData: false }
+349 silly mapToRegistry name zone.js
+350 silly mapToRegistry using default registry
+351 silly mapToRegistry registry https://registry.npmjs.org/
+352 silly mapToRegistry uri https://registry.npmjs.org/zone.js
+353 verbose addNameRange registry:https://registry.npmjs.org/zone.js not in flight; fetching
+354 silly resolveWithNewModule font-awesome@4.7.0 checking installable status
+355 silly cache add args [ 'font-awesome@^4.7.0', null ]
+356 verbose cache add spec font-awesome@^4.7.0
+357 silly cache add parsed spec Result {
+357 silly cache add   raw: 'font-awesome@^4.7.0',
+357 silly cache add   scope: null,
+357 silly cache add   name: 'font-awesome',
+357 silly cache add   rawSpec: '^4.7.0',
+357 silly cache add   spec: '>=4.7.0 <5.0.0',
+357 silly cache add   type: 'range' }
+358 silly addNamed font-awesome@>=4.7.0 <5.0.0
+359 verbose addNamed ">=4.7.0 <5.0.0" is a valid semver range for font-awesome
+360 silly addNameRange { name: 'font-awesome', range: '>=4.7.0 <5.0.0', hasData: false }
+361 silly mapToRegistry name font-awesome
+362 silly mapToRegistry using default registry
+363 silly mapToRegistry registry https://registry.npmjs.org/
+364 silly mapToRegistry uri https://registry.npmjs.org/font-awesome
+365 verbose addNameRange registry:https://registry.npmjs.org/font-awesome not in flight; fetching
+366 silly resolveWithNewModule bootstrap@5.1.3 checking installable status
+367 silly cache add args [ 'bootstrap@^5.1.3', null ]
+368 verbose cache add spec bootstrap@^5.1.3
+369 silly cache add parsed spec Result {
+369 silly cache add   raw: 'bootstrap@^5.1.3',
+369 silly cache add   scope: null,
+369 silly cache add   name: 'bootstrap',
+369 silly cache add   rawSpec: '^5.1.3',
+369 silly cache add   spec: '>=5.1.3 <6.0.0',
+369 silly cache add   type: 'range' }
+370 silly addNamed bootstrap@>=5.1.3 <6.0.0
+371 verbose addNamed ">=5.1.3 <6.0.0" is a valid semver range for bootstrap
+372 silly addNameRange { name: 'bootstrap', range: '>=5.1.3 <6.0.0', hasData: false }
+373 silly mapToRegistry name bootstrap
+374 silly mapToRegistry using default registry
+375 silly mapToRegistry registry https://registry.npmjs.org/
+376 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+377 verbose addNameRange registry:https://registry.npmjs.org/bootstrap not in flight; fetching
+378 silly resolveWithNewModule angular-font-awesome@3.1.2 checking installable status
+379 silly cache add args [ 'angular-font-awesome@^3.1.2', null ]
+380 verbose cache add spec angular-font-awesome@^3.1.2
+381 silly cache add parsed spec Result {
+381 silly cache add   raw: 'angular-font-awesome@^3.1.2',
+381 silly cache add   scope: null,
+381 silly cache add   name: 'angular-font-awesome',
+381 silly cache add   rawSpec: '^3.1.2',
+381 silly cache add   spec: '>=3.1.2 <4.0.0',
+381 silly cache add   type: 'range' }
+382 silly addNamed angular-font-awesome@>=3.1.2 <4.0.0
+383 verbose addNamed ">=3.1.2 <4.0.0" is a valid semver range for angular-font-awesome
+384 silly addNameRange { name: 'angular-font-awesome',
+384 silly addNameRange   range: '>=3.1.2 <4.0.0',
+384 silly addNameRange   hasData: false }
+385 silly mapToRegistry name angular-font-awesome
+386 silly mapToRegistry using default registry
+387 silly mapToRegistry registry https://registry.npmjs.org/
+388 silly mapToRegistry uri https://registry.npmjs.org/angular-font-awesome
+389 verbose addNameRange registry:https://registry.npmjs.org/angular-font-awesome not in flight; fetching
+390 silly resolveWithNewModule ngx-webcam@0.4.1 checking installable status
+391 silly cache add args [ 'ngx-webcam@^0.4.1', null ]
+392 verbose cache add spec ngx-webcam@^0.4.1
+393 silly cache add parsed spec Result {
+393 silly cache add   raw: 'ngx-webcam@^0.4.1',
+393 silly cache add   scope: null,
+393 silly cache add   name: 'ngx-webcam',
+393 silly cache add   rawSpec: '^0.4.1',
+393 silly cache add   spec: '>=0.4.1 <0.5.0',
+393 silly cache add   type: 'range' }
+394 silly addNamed ngx-webcam@>=0.4.1 <0.5.0
+395 verbose addNamed ">=0.4.1 <0.5.0" is a valid semver range for ngx-webcam
+396 silly addNameRange { name: 'ngx-webcam', range: '>=0.4.1 <0.5.0', hasData: false }
+397 silly mapToRegistry name ngx-webcam
+398 silly mapToRegistry using default registry
+399 silly mapToRegistry registry https://registry.npmjs.org/
+400 silly mapToRegistry uri https://registry.npmjs.org/ngx-webcam
+401 verbose addNameRange registry:https://registry.npmjs.org/ngx-webcam not in flight; fetching
+402 silly resolveWithNewModule popper.js@1.16.1 checking installable status
+403 silly cache add args [ 'popper.js@^1.16.1', null ]
+404 verbose cache add spec popper.js@^1.16.1
+405 silly cache add parsed spec Result {
+405 silly cache add   raw: 'popper.js@^1.16.1',
+405 silly cache add   scope: null,
+405 silly cache add   name: 'popper.js',
+405 silly cache add   rawSpec: '^1.16.1',
+405 silly cache add   spec: '>=1.16.1 <2.0.0',
+405 silly cache add   type: 'range' }
+406 silly addNamed popper.js@>=1.16.1 <2.0.0
+407 verbose addNamed ">=1.16.1 <2.0.0" is a valid semver range for popper.js
+408 silly addNameRange { name: 'popper.js', range: '>=1.16.1 <2.0.0', hasData: false }
+409 silly mapToRegistry name popper.js
+410 silly mapToRegistry using default registry
+411 silly mapToRegistry registry https://registry.npmjs.org/
+412 silly mapToRegistry uri https://registry.npmjs.org/popper.js
+413 verbose addNameRange registry:https://registry.npmjs.org/popper.js not in flight; fetching
+414 verbose stack Error: Missing required argument #1
+414 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+414 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+414 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+414 verbose stack     at /usr/share/npm/lib/install/deps.js:457:7
+414 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+414 verbose stack     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+414 verbose stack     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+414 verbose stack     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+414 verbose stack     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+414 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+415 verbose cwd /home/labsuser/Desktop/online-test-portal
+416 error Linux 5.3.0-1030-aws
+417 error argv "/usr/bin/node" "/usr/bin/npm" "install"
+418 error node v8.10.0
+419 error npm  v3.5.2
+420 error code EMISSINGARG
+421 error typeerror Error: Missing required argument #1
+421 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+421 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+421 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+421 error typeerror     at /usr/share/npm/lib/install/deps.js:457:7
+421 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+421 error typeerror     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+421 error typeerror     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+421 error typeerror     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+421 error typeerror     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+421 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+422 error typeerror This is an error with npm itself. Please report this error at:
+422 error typeerror     <http://github.com/npm/npm/issues>
+423 verbose exit [ 1, true ]

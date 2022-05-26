@@ -1,0 +1,12 @@
+<div *ngFor="let qn of questions">
+    {{qn.id}}. {{qn.question}}
+    <div class="form-check">
+      <ol>
+        <li>{{qn.answer1}}</li>
+        <li>{{qn.answer2}}</li>
+        <li>{{qn.answer3}}</li>
+      </ol>
+      Answer: <input  type="text" name="{{qn.id}}" ngModel >
+    </div>
+  </div>
+  

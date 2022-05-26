@@ -1,0 +1,5 @@
+<app-header ></app-header>
+<div class="bottomright">
+<webcam [height]="300" [width]="300" (initError)="handleInitError($event)"></webcam>
+</div>
+<router-outlet></router-outlet>

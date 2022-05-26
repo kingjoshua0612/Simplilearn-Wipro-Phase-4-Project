@@ -1,0 +1,15 @@
+<p>You have chosen <b>{{subject}}</b> questions</p>
+<form #questionForm="ngForm" (ngSubmit)="onSubmit(questionForm)" >
+  <div *ngFor="let qn of htmlQuestions">
+    {{qn.id}}. {{qn.question}}
+  <div class="form-check questions">
+    <ol>
+      <li>{{qn.answer1}}</li>
+      <li>{{qn.answer2}}</li>
+      <li>{{qn.answer3}}</li>
+    </ol>
+    Answer: <input  type="text" name="{{qn.id}}" ngModel >
+  </div>
+ </div>
+ <input type="submit"  class="btn btn-primary" value="Submit" [ngStyle]="{'width':'20%', 'margin-top':'2em'}">
+</form>

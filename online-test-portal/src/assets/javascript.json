@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "What is Javascript",
+    "answer1": "Markup language",
+    "answer2": "A language to add interactivity to your web page",
+    "answer3": "Compiled language",
+    "correct": "2"
+  },
+  {
+    "id": 2,
+    "question": "When interpreter encounters an empty statements, what it will do:",
+    "answer1": "Shows a warning",
+    "answer2": "Prompts to complete the statement",
+    "answer3": "Ignores the statements",
+    "correct": "3"
+  },
+  {
+    "id": 3,
+    "question": "Which one of the following is the correct way for calling the JavaScript code?",
+    "answer1": "Preprocessor",
+    "answer2": "Function/Method",
+    "answer3": "Triggering Event",
+    "correct": "2"
+  },
+  {
+    "id": 4,
+    "question": "Which of the following syntax can be used to write \"Hello World\" in an alert box?",
+    "answer1": "alertBox('Hello World');",
+    "answer2": "alert('Hello World');",
+    "answer3": "msgBox('Hello World');",
+    "correct": "2"
+  },
+  {
+    "id": 5,
+    "question": "Which one of the following keywords is used for defining the function in the JavaScript?",
+    "answer1": "Void",
+    "answer2": "init",
+    "answer3": "function",
+    "correct": "3"
+  }
+]

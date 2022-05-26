@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "question": "The CSS property used to specify the transparency of an element is -",
+    "answer1": "opacity",
+    "answer2": "filter",
+    "answer3": "visibility",
+    "correct": "1"
+  },
+
+  {
+    "id": 2,
+    "question": "Which of the following property is used as the shorthand property for the padding properties?",
+    "answer1": "padding",
+    "answer2": "padding-right",
+    "answer3": "padding-right",
+    "correct": "1"
+  },
+  {
+    "id": 3,
+    "question": "The HTML attribute used to define the inline styles is -",
+    "answer1": "style",
+    "answer2": "styles",
+    "answer3": "class",
+    "correct": "2"
+  },
+  {
+    "id": 4,
+    "question": "The property in CSS used to change the background color of an element is -",
+    "answer1": "bgcolor",
+    "answer2": "color",
+    "answer3": "background-color",
+    "correct": "3"
+  },
+  {
+    "id": 5,
+    "question": "CSS stands for:-",
+    "answer1": "Cascade style sheets",
+    "answer2": "Color and style sheets",
+    "answer3": "Cascading style sheets",
+    "correct": "3"
+  }
+]
+

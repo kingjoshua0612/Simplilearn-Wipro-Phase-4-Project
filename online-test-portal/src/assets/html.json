@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "question": "What is HTML",
+    "answer1": "Markup language",
+    "answer2": "Backend language",
+    "answer3": "Compiled language",
+    "correct": "1"
+  },
+
+  {
+    "id": 2,
+    "question": "There are _____ level of heading in html",
+    "answer1": "three",
+    "answer2": "four",
+    "answer3": "six",
+    "correct": "3"
+  },
+
+  {
+    "id": 3,
+    "question": "To get the ordered list we use",
+    "answer1": "<h1>",
+    "answer2": "<ul>",
+    "answer3": "<ol>",
+    "correct": "3"
+  },
+
+  {
+    "id": 4,
+    "question": "Which one of the following tags is used to insert graphics in the webpage",
+    "answer1": "<image>",
+    "answer2": "<images>",
+    "answer3": "<img>",
+    "correct": "3"
+  },
+
+  {
+    "id": 5,
+    "question": "Which of the following tags do not require a terminator?",
+    "answer1": "<u>",
+    "answer2": "<br>",
+    "answer3": "<b>",
+    "correct": "2"
+  }
+
+]
