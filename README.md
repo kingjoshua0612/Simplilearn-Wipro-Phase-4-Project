@@ -1,5 +1,5 @@
 # Simplilearn-Wipro-Phase-4-Project
-# Simplilearn Chat App
+# Simplilearn Test Portal
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) 
 
 ## Development server
